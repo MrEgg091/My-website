@@ -11,7 +11,8 @@
 }
 
 body {
-  background: var(--bg);
+  /*background: var(--bg);*/
+  background: #00171f;
   color: var(--fg);
   font-family: 'Syne', sans-serif;
   min-height: 100vh;
@@ -28,7 +29,8 @@ nav {
   border-bottom: 0.5px solid var(--border);
   position: sticky;
   top: 0;
-  background: rgba(13,13,11,0.92);
+  /*background: rgba(13,13,11,0.92);*/
+
   backdrop-filter: blur(8px);
   z-index: 100;
 }
@@ -191,7 +193,7 @@ section {
 }
 
 .project-card {
-  background: var(--card);
+  /*background: var(--card);*/
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0;
@@ -202,7 +204,8 @@ section {
 }
 
 .project-card:hover {
-  background: #1a1a14;
+  /*background: #1a1a14;*/
+  background: #00171f;
 }
 
 .project-card::before {
